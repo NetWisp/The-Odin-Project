@@ -1,0 +1,122 @@
+header ul
+{
+	text-align: right;
+}
+
+header ul li
+{
+	padding: 5px;
+}
+
+ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li 
+{
+	display: inline;
+}
+
+a 
+{
+	text-decoration: none;
+	font-family: arial, sans-serif;
+	font-size:14px;
+}
+
+a:link {
+	color:black;
+}
+
+a:visited {
+	color:black;
+}
+
+a:hover
+{
+	text-decoration:underline;
+}
+
+/* Center */
+
+#centerImage
+{
+	margin-top: 50px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#search
+{
+	position: relative;
+}
+
+#search input
+{
+	display:block;
+	margin:auto;
+	width: 600px;
+	height:20px;
+}
+
+#search ul
+{
+	margin-top: 20px;
+	width: 600px;
+	margin:auto;
+
+}
+
+#centerButtons
+{
+	width:45%;
+	margin:auto;
+}
+
+#search ul li
+{
+	display:inline-block;
+	margin:auto;
+	padding:5px;
+}
+
+/* Bottom */
+
+footer
+{
+	width:100%;
+	bottom:0;
+	position:fixed;
+	background-color: #f2f2f2;
+	border-top:1px solid #e4e4e4;
+	height:40px;
+	color:rgb(34, 34, 34);
+}
+
+#list1
+{
+	display:block;
+	float:left;
+}
+
+#list1 li a
+{
+	padding-top:10px;
+	padding:20px;
+}
+
+#list2
+{
+	display:block;
+	float:right;
+}
+
+#list2 li a
+{
+	padding-top:10px;
+	padding:20px;
+}
