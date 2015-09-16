@@ -1,0 +1,36 @@
+body h2
+{
+  margin: auto;
+  text-align: center;
+  font-family: "calibri";
+}
+
+#buttonContainer
+{
+  margin: auto;
+  width: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "calibri";
+}
+
+#gridContainer
+{
+  margin: auto;
+  width: 500px;
+  height: 500px;
+
+}
+
+.gridSquare
+{
+  float: left;
+  background-color: black;
+  border: 1px solid white;
+}
+
+.newRow
+{
+  clear: both;
+}
