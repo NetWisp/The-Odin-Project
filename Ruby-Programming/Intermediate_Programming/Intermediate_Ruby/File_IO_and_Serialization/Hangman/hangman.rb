@@ -37,7 +37,7 @@ class Hangman
     if secret_word == display_word
       puts "Congratulations! You guessed the right word!"
       true
-    elsif wrong_guesses == $MAX_WRONG_GUESSES
+    elsif wrong_guesses == @MAX_WRONG_GUESSES
       puts "Game Over! The man got hanged!"
       puts "The word was #{secret_word}"
       true
@@ -119,8 +119,8 @@ class Hangman
 
   def play_game
     init_game unless @letters_used != nil
-
-    while (!game_over(@secret_word, @player_word, @wrong_guesses)) do
+    quit = false
+    while (!quit) do
       # Check for valid input, uppercase letter should be downcased
 
       print "Enter a letter or type save to save your game: "
@@ -144,6 +144,7 @@ class Hangman
       @letters_used << @input unless @input == "save"
 
       display_game(@player_word, @letters_used, @wrong_guesses)
+      quit = game_over(@secret_word, @player_word, @wrong_guesses)
     end
   end
 end
