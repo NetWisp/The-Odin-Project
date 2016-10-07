@@ -1,0 +1,8 @@
+--- !ruby/object:Hangman
+save: file.yaml
+turns: 6
+secret_word: wringer
+board: __i__e_
+strike_count: 1
+guesses:
+- a

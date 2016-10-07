@@ -1,0 +1,8 @@
+--- !ruby/object:Hangman
+turns: 6
+secret_word: ironical
+board: ______a_
+strike_count: 2
+guesses:
+- s
+- e
